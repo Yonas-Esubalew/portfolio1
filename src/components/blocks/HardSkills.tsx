@@ -32,6 +32,13 @@ import docker from "@assets/technologies/docker.svg"
 import traefik from "@assets/technologies/traefik.svg"
 import gitlab from "@assets/technologies/gitlab.svg"
 import figma from "@assets/technologies/figma.svg"
+import tailwind from "@assets/technologies/tailwind.svg"
+import reactQuery from "@assets/technologies/react-query.svg"
+import zustand from "@assets/technologies/zustand.svg"
+import jotai from "@assets/technologies/jotai.svg"
+import i18next from "@assets/technologies/i18next.svg"
+import reactHookForm from "@assets/technologies/react-hook-form.svg"
+import jest from "@assets/technologies/jest.svg"
 
 const HardSkills = () => {
   return (
@@ -68,10 +75,25 @@ const HardSkills = () => {
           <SkillsGroup
             title="Libraries"
             technologies={[
-              { name: "Redux", icon: [redux, redux] },
+              { name: "Tailwind CSS", icon: [tailwind, tailwind] },
               { name: "SCSS", icon: [sass, sass] },
-              { name: "Framer Motion", icon: [motion, motion] },
               { name: "Styled", icon: [styled, styled] },
+              { name: "Framer Motion", icon: [motion, motion] },
+            ]}
+          />
+        </div>
+
+        <div className={styles.row}>
+          {/* Frontend */}
+          <SkillsGroup
+            technologies={[
+              { name: "Redux", icon: [redux, redux] },
+              { name: "React-Query", icon: [reactQuery, reactQuery] },
+              { name: "Zustand", icon: [zustand, zustand] },
+              { name: "Jotai", icon: [jotai, jotai] },
+              { name: "i18next", icon: [i18next, i18next] },
+              { name: "React Hook Form", icon: [reactHookForm, reactHookForm] },
+              { name: "Jest", icon: [jest, jest] },
             ]}
           />
         </div>
