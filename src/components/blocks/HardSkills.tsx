@@ -40,7 +40,7 @@ const HardSkills = () => {
         </div>
         <hr />
 
-        <Heading title="Major Services Provide for Our Clients" subtitle="Major Services Provide for Our Clients" />
+        <Heading title="Major Services Provide for Our Clients" subtitle="Services we provide for you" />
         <div className={styles.container}>
         <div className={styles.row}>
           {/* Frontend */}
