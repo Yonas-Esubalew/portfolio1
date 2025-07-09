@@ -4,164 +4,83 @@ import styles from "@styles/HardSkills.module.scss"
 import { Heading } from "@components/Heading"
 import { SkillsGroup } from "@components/SkillsGroup"
 
-/** Technologies **/
-import js from "@assets/technologies/js.svg"
-import react from "@assets/technologies/react.svg"
-import postgresql from "@assets/technologies/postgresql.svg"
-import ts from "@assets/technologies/ts.svg"
-import nextLight from "@assets/technologies/next-light.svg"
-import nextDark from "@assets/technologies/next-dark.svg"
-import redux from "@assets/technologies/redux.svg"
-import prismaLight from "@assets/technologies/prisma-light.svg"
-import prismaDark from "@assets/technologies/prisma-dark.svg"
-import nest from "@assets/technologies/nest.svg"
-import mongodb from "@assets/technologies/mongodb.svg"
-import nativeLight from "@assets/technologies/native-light.svg"
-import nativeDark from "@assets/technologies/native-dark.svg"
-import nodejs from "@assets/technologies/nodejs.svg"
-import sass from "@assets/technologies/sass.svg"
-import motion from "@assets/technologies/motion.svg"
-import styled from "@assets/technologies/styled.svg"
-import git from "@assets/technologies/git.svg"
-import actions from "@assets/technologies/actions.svg"
-import photoshop from "@assets/technologies/photoshop.svg"
-import expressDark from "@assets/technologies/express-dark.svg"
-import expressLight from "@assets/technologies/express-light.svg"
-import bash from "@assets/technologies/bash.svg"
-import docker from "@assets/technologies/docker.svg"
-import traefik from "@assets/technologies/traefik.svg"
-import gitlab from "@assets/technologies/gitlab.svg"
-import figma from "@assets/technologies/figma.svg"
-import tailwind from "@assets/technologies/tailwind.svg"
-import reactQuery from "@assets/technologies/react-query.svg"
-import zustand from "@assets/technologies/zustand.svg"
-import jotai from "@assets/technologies/jotai.svg"
-import i18next from "@assets/technologies/i18next.svg"
-import reactHookForm from "@assets/technologies/react-hook-form.svg"
-import jest from "@assets/technologies/jest.svg"
+import tiktok from "@assets/tiktok.png"
+import instagram from "@assets/instagram.png"
+import youtube from "@assets/youtube.png"
 
+import adobe from "@assets/adobe.png"
+import capcut from "@assets/capcut.png"
+import davinci from "@assets/davinci.png"
+
+import cut from "@assets/cut.png"
+import color from "@assets/color.png"
+import sound from "@assets/sound.png"
+import trim from "@assets/trim.png"
+import audio from "@assets/audio.png"
+import transition from "@assets/transition.png"
+
+
+import time from "@assets/time.png"
+import com from "@assets/com.png"
+import qua from "@assets/qua.png"
 const HardSkills = () => {
   return (
     <div className={styles.skills} id="skills">
-      <Heading title="Hard Skills" subtitle="List of technologies 🧑‍💻" />
+      <Heading title="Hard Skills" />
       <div className={styles.container}>
         {/* Programming */}
         <div className={styles.row}>
           <SkillsGroup
-            title="Programming"
             technologies={[
-              { name: "JavaScript", icon: [js, js] },
-              { name: "TypeScript", icon: [ts, ts] },
-              { name: "Node.js", icon: [nodejs, nodejs] },
+              { name: "Capcut", icon: [capcut, capcut] },
+              { name: "Davinci Resolve", icon: [davinci, davinci] },
+              { name: "Adobe Premiere Pro", icon: [adobe, adobe] },
             ]}
           />
         </div>
 
         <hr />
 
+        <Heading subtitle="Major Services Provide for Our Clients" />
+        <div className={styles.container}>
+        <div className={styles.row}>
+          {/* Frontend */}
+          <SkillsGroup
+            technologies={[
+              { name: "Youtube Long and Shorts Editor", icon: [youtube, youtube] },
+              { name: "Instagram reels Editor", icon: [instagram, instagram] },
+              { name: "Tiktok Video Editor", icon: [tiktok, tiktok] },
+            ]}
+          />
+        </div>
+        </div>
         {/* Frontend / Libraries */}
-        <div className={styles.row}>
-          {/* Frontend */}
-          <SkillsGroup
-            title="Frontend"
-            technologies={[
-              { name: "React.js", icon: [react, react] },
-              { name: "React Native", icon: [nativeDark, nativeLight] },
-              { name: "Next.js", icon: [nextDark, nextLight] },
-            ]}
-          />
-
-          {/* Libraries */}
-          <SkillsGroup
-            title="Libraries"
-            technologies={[
-              { name: "Tailwind CSS", icon: [tailwind, tailwind] },
-              { name: "SCSS", icon: [sass, sass] },
-              { name: "Styled", icon: [styled, styled] },
-              { name: "Framer Motion", icon: [motion, motion] },
-            ]}
-          />
-        </div>
-
-        <div className={styles.row}>
-          {/* Frontend */}
-          <SkillsGroup
-            technologies={[
-              { name: "Redux", icon: [redux, redux] },
-              { name: "React-Query", icon: [reactQuery, reactQuery] },
-              { name: "Zustand", icon: [zustand, zustand] },
-              { name: "Jotai", icon: [jotai, jotai] },
-              { name: "i18next", icon: [i18next, i18next] },
-              { name: "React Hook Form", icon: [reactHookForm, reactHookForm] },
-              { name: "Jest", icon: [jest, jest] },
-            ]}
-          />
-        </div>
-
-        <hr />
-
-        {/* Backend / Databases / ORM */}
-        <div className={styles.row}>
-          {/* Backend */}
-          <SkillsGroup
-            title="Backend"
-            technologies={[
-              { name: "Nest.js", icon: [nest, nest] },
-              { name: "Express.js", icon: [expressDark, expressLight] },
-            ]}
-          />
-
-          {/* Databases */}
-          <SkillsGroup
-            title="Databases"
-            technologies={[
-              { name: "PostgreSQL", icon: [postgresql, postgresql] },
-              { name: "MongoDB", icon: [mongodb, mongodb] },
-            ]}
-          />
-
-          {/* ORM */}
-          <SkillsGroup
-            title="ORM"
-            technologies={[{ name: "Prisma", icon: [prismaDark, prismaLight] }]}
-          />
-        </div>
-
-        <hr />
-
-        {/* Other / DevOps */}
-        <div className={styles.row}>
-          {/* Other */}
-          <SkillsGroup
-            title="Other"
-            technologies={[
-              { name: "Git", icon: [git, git] },
-              { name: "Bash", icon: [bash, bash] },
-            ]}
-          />
-
-          {/* DevOps */}
-          <SkillsGroup
-            title="DevOps"
-            technologies={[
-              { name: "Docker", icon: [docker, docker] },
-              { name: "Traefik", icon: [traefik, traefik] },
-              { name: "GitLab CI/CD", icon: [gitlab, gitlab] },
-              { name: "GitHub Actions", icon: [actions, actions] },
-            ]}
-          />
-        </div>
-
-        <hr />
-
+<hr />
         {/* Design */}
         <div className={styles.row}>
           {/* Design */}
           <SkillsGroup
-            title="Design"
+            title="Major Video Editing Skills"
             technologies={[
-              { name: "Figma", icon: [figma, figma] },
-              { name: "Photoshop", icon: [photoshop, photoshop] },
+              { name: "Footage Cutting", icon: [cut, cut] },
+              { name: "Audio Editing", icon: [audio, audio] },
+              { name: "Color Grading", icon: [color, color] },
+              { name: "Add Transition", icon: [transition, transition] },
+              { name: "Video Trimming", icon: [trim, trim] },
+              { name: "Add Sound Effects", icon: [sound, sound] },
+            ]}
+          />
+        </div>
+<hr />
+        {/* Design */}
+        <div className={styles.row}>
+          {/* Design */}
+          <SkillsGroup
+            title="Our Major Soft Skills"
+            technologies={[
+              { name: "Provide Quality Product", icon: [qua, qua] },
+              { name: "Have Better Communication", icon: [com, com] },
+              { name: "Provide Services on Time", icon: [time, time] },
             ]}
           />
         </div>

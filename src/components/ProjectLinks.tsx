@@ -7,6 +7,7 @@ import { LinkButton } from "@components/LinkButton"
 
 import githubLight from "@icons/github-light.svg"
 import githubDark from "@icons/github-dark.svg"
+import tube from "@assets/tube.png"
 
 type Props = {
   url?: string
@@ -25,7 +26,7 @@ const ProjectLinks: FC<Props> = ({ url, github, name }) => {
         </LinkButton>
       ) : null}
       <LinkButton
-        icon={theme === "light" ? githubLight : githubDark}
+        icon={tube}
         style="github"
         url={github}
       />

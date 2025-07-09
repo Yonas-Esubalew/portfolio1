@@ -21,8 +21,12 @@ const SkillsItem: FC<Props> = ({ name, icon }) => {
           src={theme === "dark" ? icon[0] : icon[1]}
           alt={name}
           layout="fixed"
-          height={60}
-          width={60}
+          height={200}
+          width={200}
+          style={{
+            objectFit: "cover",
+            justifyContent: "center",
+          }}
         />
       </span>
       <p>{name}</p>

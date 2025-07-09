@@ -76,7 +76,7 @@ const ProjectCard: FC<Props> = ({
     >
       <div className={styles.info}>
         {/* Light & Dark Logo */}
-        <ProjectLogo logoDark={logoDark} logoLight={logoLight} />
+        {/* <ProjectLogo logoDark={logoDark} logoLight={logoLight} /> */}
 
         {/* Stack & Description */}
         <div className={styles.text}>

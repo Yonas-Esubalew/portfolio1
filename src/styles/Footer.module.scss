@@ -1,9 +1,11 @@
 .footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 32px 178.5px;
   column-gap: 30px;
   border-top: 1px solid var(--footer-border-color);
-  justify-content: space-between;
+
 
   .info {
     br {

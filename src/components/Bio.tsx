@@ -3,7 +3,7 @@ import styles from "@styles/Bio.module.scss"
 
 import Image from "next/image"
 
-import avatar from "@assets/avatar.png"
+import avatar from "@assets/Yonas.png"
 
 const Bio = () => {
   return (
@@ -13,16 +13,20 @@ const Bio = () => {
           src={avatar}
           width={175}
           height={175}
+          style={{
+    borderRadius: '50%',
+    objectFit: 'cover',
+  }}
           alt="avatar"
           layout="fixed"
         />
       </div>
       <h1>
-        Hi, my name is <span className={styles.name}>Korolkov Alexander.</span>
+        Hi, my name is <span className={styles.name}>Yonas Esubalew.</span>
         <br />
         I’m a <span className={styles.developer}>
-          Frontend Developer
-        </span> & <span className={styles.designer}>UI UX Designer.</span>
+          Video Editor
+        </span> & <span className={styles.designer}>Content Creator.</span>
       </h1>
     </div>
   )

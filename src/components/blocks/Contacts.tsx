@@ -15,13 +15,13 @@ const Contacts: FC = () => {
         <ContactLink
           icon={telegram}
           title="Telegram"
-          value="@saizaax"
-          url="https://t.me/saizaax"
+          value="@Yonas"
+          url="https://t.me/q999qw"
         />
         <ContactLink
           icon={email}
           title="Email"
-          value="contact@saizaax.dev"
+          value="yonasatwork999@gmail.com"
           url="mailto:contact@saizaax.dev"
         />
       </div>

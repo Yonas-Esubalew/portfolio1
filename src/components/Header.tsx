@@ -48,14 +48,14 @@ const Header = () => {
             <span className={styles.logoImage}>
               <Image
                 src={memoji}
-                alt="saizaax.dev"
+                alt="yonas.vid"
                 width={50}
                 height={50}
                 layout="fixed"
               />
             </span>
             <h3>
-              saizaax<span>.dev</span>
+              yonas<span>.vid</span>
             </h3>
           </div>
         </Link>

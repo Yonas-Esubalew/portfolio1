@@ -1,18 +1,18 @@
 .container {
-  width: 80px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   transition: 0.2s;
 
   .logo {
     transition: 0.2s;
     border-radius: 8px;
     overflow: hidden;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
   }
 
   p {

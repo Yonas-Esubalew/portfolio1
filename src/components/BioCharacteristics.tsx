@@ -6,27 +6,28 @@ import { BioItem } from "@components/BioItem"
 const BioCharacteristics = () => {
   return (
     <div className={styles.characteristics}>
-      <BioItem name="Age" value="22 years old" />
-      <BioItem name="Location" value="Russia, Moscow" />
+      <BioItem name="Age" value="23 years old" />
+      <BioItem name="Location" value="Ethiopia, Addis Ababa" />
       <BioItem
         name="Education"
-        value="RTU MIREA University, Software Engineering Bachelor's degree"
-      />
-      <BioItem name="Additional Education" value="Yandex SHRI Autumn 2021" />
-      <BioItem name="Total Experience" value="3.5+ years" />
+        value="Adama Science and Technology University, Computer Science and Engineering"
+      /><br></br>
+      <BioItem name="Additional Education" value="Coursera Online Platform From Meta and IBM Professional Certificates 2024" />
       <BioItem
-        name="Work 01"
-        value="RTUITLab • April 2020 — November 2021"
-      />
-      <BioItem
-        name="Work 02"
-        value="Mind Rhythms, LLC • November 2021 — December 2022"
+        name="Started Date"
+        value="May 2022"
       />
       <BioItem
-        name="Current Work"
-        value="Black Wall Group • December 2022 — Current"
+        name="Graduate Expected Date"
+        value="June 2026"
+      />
+      <BioItem
+        name="Program"
+        value="Bachlor's Degree"
         isLast={true}
       />
+      <BioItem name="Total Experience On Video Editing" value="2.5+ years" />
+      
     </div>
   )
 }

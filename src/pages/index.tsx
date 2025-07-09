@@ -16,9 +16,9 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>SAIZAAX.DEV</title>
+        <title>yonas.vid</title>
         <meta name="description" content="Personal Website — Portfolio 😎" />
-        {/* Favicon */}
+        Favicon
         <link
           rel="apple-touch-icon"
           sizes="180x180"
