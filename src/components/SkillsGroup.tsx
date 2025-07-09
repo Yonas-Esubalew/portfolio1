@@ -1,17 +1,13 @@
 import React, { FC } from "react"
 import styles from "@styles/SkillsGroup.module.scss"
-
 import { LayoutGroup, motion, useAnimation, useInView } from "framer-motion"
-
 import { SkillsItem } from "@components/SkillsItem"
-
 import { Technology } from "@custom-types/Technology.type"
 
 type Props = {
   title?: string
   technologies: Technology[]
 }
-
 const animations = {
   hidden: {
     y: 40,

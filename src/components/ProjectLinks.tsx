@@ -26,7 +26,7 @@ const ProjectLinks: FC<Props> = ({ url, github, name }) => {
         </LinkButton>
       ) : null}
       <LinkButton
-        icon={tube}
+        icon={tube.src}
         style="github"
         url={github}
       />

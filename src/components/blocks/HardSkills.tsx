@@ -26,30 +26,29 @@ import qua from "@assets/qua.png"
 const HardSkills = () => {
   return (
     <div className={styles.skills} id="skills">
-      <Heading title="Hard Skills" />
+      <Heading title="Hard Skills"  subtitle="Few words about me 🤓"/>
       <div className={styles.container}>
         {/* Programming */}
         <div className={styles.row}>
           <SkillsGroup
             technologies={[
-              { name: "Capcut", icon: [capcut, capcut] },
-              { name: "Davinci Resolve", icon: [davinci, davinci] },
-              { name: "Adobe Premiere Pro", icon: [adobe, adobe] },
+              { name: "Capcut", icon: [capcut.src, capcut.src] },
+              { name: "Davinci Resolve", icon: [davinci.src, davinci.src] },
+              { name: "Adobe Premiere Pro", icon: [adobe.src, adobe.src] },
             ]}
           />
         </div>
-
         <hr />
 
-        <Heading subtitle="Major Services Provide for Our Clients" />
+        <Heading title="Major Services Provide for Our Clients" subtitle="Major Services Provide for Our Clients" />
         <div className={styles.container}>
         <div className={styles.row}>
           {/* Frontend */}
           <SkillsGroup
             technologies={[
-              { name: "Youtube Long and Shorts Editor", icon: [youtube, youtube] },
-              { name: "Instagram reels Editor", icon: [instagram, instagram] },
-              { name: "Tiktok Video Editor", icon: [tiktok, tiktok] },
+              { name: "Youtube Long and Shorts Editor", icon: [youtube.src, youtube.src] },
+              { name: "Instagram reels Editor", icon: [instagram.src, instagram.src] },
+              { name: "Tiktok Video Editor", icon: [tiktok.src, tiktok.src] },
             ]}
           />
         </div>
@@ -62,12 +61,12 @@ const HardSkills = () => {
           <SkillsGroup
             title="Major Video Editing Skills"
             technologies={[
-              { name: "Footage Cutting", icon: [cut, cut] },
-              { name: "Audio Editing", icon: [audio, audio] },
-              { name: "Color Grading", icon: [color, color] },
-              { name: "Add Transition", icon: [transition, transition] },
-              { name: "Video Trimming", icon: [trim, trim] },
-              { name: "Add Sound Effects", icon: [sound, sound] },
+              { name: "Footage Cutting", icon: [cut.src, cut.src] },
+              { name: "Audio Editing", icon: [audio.src, audio.src] },
+              { name: "Color Grading", icon: [color.src, color.src] },
+              { name: "Add Transition", icon: [transition.src, transition.src] },
+              { name: "Video Trimming", icon: [trim.src, trim.src] },
+              { name: "Add Sound Effects", icon: [sound.src, sound.src] },
             ]}
           />
         </div>
@@ -78,9 +77,9 @@ const HardSkills = () => {
           <SkillsGroup
             title="Our Major Soft Skills"
             technologies={[
-              { name: "Provide Quality Product", icon: [qua, qua] },
-              { name: "Have Better Communication", icon: [com, com] },
-              { name: "Provide Services on Time", icon: [time, time] },
+              { name: "Provide Quality Product", icon: [qua.src, qua.src] },
+              { name: "Have Better Communication", icon: [com.src, com.src] },
+              { name: "Provide Services on Time", icon: [time.src, time.src] },
             ]}
           />
         </div>
@@ -88,5 +87,4 @@ const HardSkills = () => {
     </div>
   )
 }
-
 export { HardSkills }
