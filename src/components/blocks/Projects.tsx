@@ -59,7 +59,7 @@ const Projects = () => {
             type="double"
           />
           {/* Xanity */}
-          <ProjectCar
+          <ProjectCard
             description="Xanity — Hardware Store Website. Made with React.js, TypeScript, Nest.js, MongoDB."
             url="https://xanity.saizaax.dev"
             github="https://github.com/saizaax/xanity"
@@ -92,7 +92,6 @@ const Projects = () => {
         {/* Studify */}
         <ProjectCard
           description="Schedule Native — mobile schedule-app for RTU MIREA university. Made with React Native and TypeScript."
-    
           github="https://github.com/saizaax/schedule-native"
           preview={studifyPreview}
           blur={studifyBlur}
@@ -102,4 +101,5 @@ const Projects = () => {
     </div>
   )
 }
+
 export { Projects }
