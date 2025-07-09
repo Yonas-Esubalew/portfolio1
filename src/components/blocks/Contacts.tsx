@@ -17,7 +17,7 @@ const Contacts: FC = () => {
           icon={email}
           title="Email"
           value="yonasatwork999@gmail.com"
-          url="yonasatwork999@gmail.com"
+          url="mailto:yonasatwork999@gmail.com"
         />
         <ContactLink
           icon={you.src}

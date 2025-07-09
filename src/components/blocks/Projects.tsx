@@ -63,7 +63,6 @@ const Projects = () => {
             blur={pizzaBlur}
             type="double"
           />
-          
           {/* Xanity */}
           <ProjectCard
             name="Xanity"
@@ -93,32 +92,6 @@ const Projects = () => {
           previewShadow={true}
         />
 
-        {/* Yet Another Schedule App */}
-        <ProjectCard
-          name="Yet Another Schedule App"
-          logoDark={xanityLogoDark.src}
-          logoLight={xanityLogoLight.src}
-          stack={[[xanityLogoDark.src, xanityLogoLight.src]]}
-          description="Yet Another Schedule App — web schedule application for RTU MIREA university. Made with React.js, Express and PostgreSQL."
-          url="https://schedule.saizaax.dev"
-          github="https://github.com/saizaax/yet-another-schedule-app"
-          preview={schedulePreview}
-          blur={scheduleBlur}
-          previewShadow={true}
-        />
-
-        {/* Studify */}
-        <ProjectCard
-          name="Schedule Native"
-          logoDark={studifyLogoDark.src}
-          logoLight={studifyLogoLight.src}
-          stack={[[studifyLogoDark.src, studifyLogoLight.src]]}
-          description="Schedule Native — mobile schedule-app for RTU MIREA university. Made with React Native and TypeScript."
-          github="https://github.com/saizaax/schedule-native"
-          preview={studifyPreview}
-          blur={studifyBlur}
-          previewShadow={true}
-        />
       </div>
     </div>
   )

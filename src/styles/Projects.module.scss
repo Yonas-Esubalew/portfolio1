@@ -17,10 +17,24 @@
     .double {
       display: flex;
       gap: 30px;
-
       @media screen and (max-width: 768px) {
         flex-direction: column;
+        gap: 20px;
+      }
+      @media screen and (max-width: 600px) {
+        gap: 10px;
+      }
+      @media screen and (max-width: 400px) {
+        gap: 5px;
       }
     }
+  }
+  @media screen and (max-width: 600px) {
+    row-gap: 30px;
+    padding: 10px;
+  }
+  @media screen and (max-width: 400px) {
+    row-gap: 10px;
+    padding: 5px;
   }
 }
