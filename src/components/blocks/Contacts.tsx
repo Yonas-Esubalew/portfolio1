@@ -23,7 +23,7 @@ const Contacts: FC = () => {
           icon={you.src}
           title="Youtube Automation Channel"
           value="Famegenix"
-          url="https://t.me/q999qw"
+          url="https://youtube.com/@famegenix9?si=UCxORbRxGaLm6ytV"
         />
         <ContactLink
           icon={telegram}
