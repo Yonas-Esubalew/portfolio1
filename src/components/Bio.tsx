@@ -1,8 +1,6 @@
 import React from "react"
 import styles from "@styles/Bio.module.scss"
-
 import Image from "next/image"
-
 import avatar from "@assets/Yonas.png"
 
 const Bio = () => {

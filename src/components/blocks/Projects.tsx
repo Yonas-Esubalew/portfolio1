@@ -2,96 +2,57 @@ import React from "react"
 import styles from "@styles/Projects.module.scss"
 import { Heading } from "@components/Heading"
 import { ProjectCard } from "@components/ProjectCard"
-import uncosPreview from "@assets/projects/uncos-preview.png"
-import uncosBlur from "@assets/projects/uncos-blur.png"
 
-/** Pizza **/
-import pizzaLogoDark from "@assets/projects/pizza-logo-dark.svg"
-import pizzaLogoLight from "@assets/projects/pizza-logo-light.svg"
-import pizzaPreview from "@assets/projects/pizza-preview.png"
-import pizzaBlur from "@assets/projects/pizza-blur.png"
-
-/** Xanity **/
-import xanityLogoDark from "@assets/projects/xanity-logo-dark.svg"
-import xanityLogoLight from "@assets/projects/xanity-logo-light.svg"
-import xanityPreview from "@assets/projects/xanity-preview.png"
-import xanityBlur from "@assets/projects/xanity-blur.png"
-import schedulePreview from "@assets/projects/schedule-preview.png"
-import scheduleBlur from "@assets/projects/schedule-blur.png"
-
-/** Studify **/
-import studifyLogoDark from "@assets/projects/studify-logo-dark.svg"
-import studifyLogoLight from "@assets/projects/studify-logo-light.svg"
-import studifyPreview from "@assets/projects/studify-preview.png"
-import studifyBlur from "@assets/projects/studify-blur.png"
-
-/** DocStorage */
-import docstorageLogoDark from "@assets/projects/docstorage-logo-dark.svg"
-import docstorageLogoLight from "@assets/projects/docstorage-logo-light.svg"
-import docstoragePreview from "@assets/projects/docstorage-preview.png"
-import docstorageBlur from "@assets/projects/docstorage-blur.png"
+// Video Editing Project Images
+import videoEdit1 from "@assets/coffee.png"
+import videoEdit2 from "@assets/peter.png"
+import videoEdit3 from "@assets/model.png"
+import videoEdit4 from "@assets/messi1.png"
 
 const Projects = () => {
   return (
     <div className={styles.projects} id="projects">
-      <Heading title="My Projects" subtitle="Made with ❤️ and passion" />
+      <Heading title="My Video Editing Projects" subtitle="Professional Video Editing Services 🎬" />
       <div className={styles.container}>
-        {/* Uncos */}
-        <ProjectCard
-          name="Uncos"
-          logoDark={uncosPreview.src}
-          logoLight={uncosPreview.src}
-          stack={[[uncosPreview.src, uncosPreview.src]]}
-          description="News Agency Website with admin dashboard. Made with React.js, Java Spring and PostgreSQL."
-          url="https://uncos.saizaax.dev"
-          github="https://github.com/saizaax/uncos"
-          preview={uncosPreview}
-          blur={uncosBlur}
-        />
+        {/* YouTube Video Editing Project 1 - Full Width */}
+        <div className={styles.fullWidth}>
+          <ProjectCard
+            name="CGI ads animated visual editing"
+            description="Professional CGI ads visual editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for Services and Product Advertising use only AI."
+            preview={videoEdit1}
+            youtubeUrl="https://youtube.com/shorts/YWKv2Le4uso?si=c1-p2bdMIv2RWHvJ"
+          />
+        </div>
 
         <div className={styles.double}>
-          {/* Next Pizza */}
+          {/* Instagram Reels Project */}
           <ProjectCard
-            name="Next Pizza"
-            logoDark={pizzaLogoDark.src}
-            logoLight={pizzaLogoLight.src}
-            stack={[[pizzaLogoDark.src, pizzaLogoLight.src]]}
-            description="Next Pizza Website. Made with Next.js, Redux, TypeScript, Prisma and PlanetScale."
-            url="https://pizza.saizaax.dev"
-            github="https://github.com/saizaax/next-pizza"
-            preview={pizzaPreview}
-            blur={pizzaBlur}
+            name="Instagram Reels Editor"
+            description="Trendy Instagram Reels with viral hooks, smooth transitions, and engaging effects. Optimized for Instagram's algorithm and maximum reach. best for brand promotion and audience engagement"
+            preview={videoEdit2}
+            youtubeUrl="https://youtube.com/shorts/AXHwOVQXrfY?si=2_ND7gqGYEL2WsU2"
             type="double"
           />
-          {/* Xanity */}
+          
+          {/* TikTok Video Project */}
           <ProjectCard
-            name="Xanity"
-            logoDark={xanityLogoDark.src}
-            logoLight={xanityLogoLight.src}
-            stack={[[xanityLogoDark.src, xanityLogoLight.src]]}
-            description="Xanity — Hardware Store Website. Made with React.js, TypeScript, Nest.js, MongoDB."
-            url="https://xanity.saizaax.dev"
-            github="https://github.com/saizaax/xanity"
-            preview={xanityPreview}
-            blur={xanityBlur}
+            name="TikTok Video Creator"
+            description="Viral TikTok content with trending effects, perfect timing, and engaging storytelling. Designed for maximum engagement and follower growth. use trending music and effects to boost visibility and viral potential."
+            preview={videoEdit3}
+            youtubeUrl="https://youtube.com/shorts/psELRUJWPP0?si=KpGgkOTKuNePxpc6"
             type="double"
           />
         </div>
 
-        {/* DocStorage */}
-        <ProjectCard
-          name="DocStorage"
-          logoDark={docstorageLogoDark.src}
-          logoLight={docstorageLogoLight.src}
-          stack={[[docstorageLogoDark.src, docstorageLogoLight.src]]}
-          description="DocStorage — cloud service for uploading, editing and translating text documents."
-          url="https://docstorage.saizaax.dev"
-          github="https://github.com/saizaax/doc-storage"
-          preview={docstoragePreview}
-          blur={docstorageBlur}
-          previewShadow={true}
-        />
-
+        {/* Corporate Video Project - Full Width */}
+        <div className={styles.fullWidth}>
+          <ProjectCard
+            name="AI Youtube Automation Video Editor"
+            description="video editing services for YouTube automation, including script optimization, engaging visuals, and audience retention strategies. by using AI tools to enhance video quality and engagement, we ensure your content stands out in the competitive YouTube landscape."
+            preview={videoEdit4}
+            youtubeUrl="https://youtube.com/shorts/AHBJIteLsmY?si=jYCjjGkutniogP5E"
+          />
+        </div>
       </div>
     </div>
   )
