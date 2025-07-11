@@ -26,7 +26,7 @@ import qua from "@assets/qua.png"
 const HardSkills = () => {
   return (
     <div className={styles.skills} id="skills">
-      <Heading title="Hard Skills"  subtitle="Few words about me 🤓"/>
+      <Heading title="Hard Skills"  subtitle="Some basic Video editing skills"/>
       <div className={styles.container}>
         {/* Programming */}
         <div className={styles.row}>

@@ -12,7 +12,10 @@ import videoEdit4 from "@assets/messi1.png"
 const Projects = () => {
   return (
     <div className={styles.projects} id="projects">
-      <Heading title="My Video Editing Projects" subtitle="Professional Video Editing Services 🎬" />
+      <Heading
+        title="My Video Editing Projects"
+        subtitle="Professional Video Editing Services 🎬"
+      />
       <div className={styles.container}>
         {/* YouTube Video Editing Project 1 - Full Width */}
         <div className={styles.fullWidth}>
@@ -33,7 +36,7 @@ const Projects = () => {
             youtubeUrl="https://youtube.com/shorts/AXHwOVQXrfY?si=2_ND7gqGYEL2WsU2"
             type="double"
           />
-          
+
           {/* TikTok Video Project */}
           <ProjectCard
             name="TikTok Video Creator"
