@@ -8,6 +8,10 @@ import videoEdit1 from "@assets/coffee.png"
 import videoEdit2 from "@assets/peter.png"
 import videoEdit3 from "@assets/model.png"
 import videoEdit4 from "@assets/messi1.png"
+import podcast1 from "@assets/Podcast-1.jpg"
+import podcast2 from "@assets/podcast-2.jpg"
+import podcast3 from "@assets/podcast-3.jpg"
+import podcast4 from "@assets/podcast-4.jpg"
 
 const Projects = () => {
   return (
@@ -20,13 +24,50 @@ const Projects = () => {
         {/* YouTube Video Editing Project 1 - Full Width */}
         <div className={styles.fullWidth}>
           <ProjectCard
+            name="Podcast Video Editing"
+            description=" Professional podcast video editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for YouTube and social media platforms."
+            preview={podcast1}
+            youtubeUrl="https://youtube.com/shorts/WouE2WrUKtA?si=8KETAFzw7PkdK9JO"
+          />
+        </div>
+
+        <div className={styles.double}>
+          {/* Instagram Reels Project */}
+          <ProjectCard
+            name="Podcast Video Editor"
+            description="podcast video editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for YouTube and social media platforms."
+            preview={podcast2}
+            youtubeUrl="https://youtube.com/shorts/oTszU40Gid8?si=EY1DrXUxcbqIM-KK"
+            type="double"
+          />
+
+          {/* TikTok Video Project */}
+          <ProjectCard
+            name="Podcast Video Creator"
+            description="Professional podcast video editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for YouTube and social media platforms."
+            preview={podcast3}
+            youtubeUrl="https://youtube.com/shorts/_TAlVXy7bec?si=Fn65PUrSoFp_H0Ta"
+            type="double"
+          />
+        </div>
+
+       <div className={styles.fullWidth}>
+          <ProjectCard
+            name="Podcast Video Editing"
+            description="Professional podcast video editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for YouTube and social media platforms."
+            preview={podcast4}
+            youtubeUrl="https://youtube.com/shorts/Pg4Ob5tuhq0?si=14OgCNyjRL6Im-Pc"
+          />
+        </div>
+
+        <div className={styles.fullWidth}>
+          <ProjectCard
             name="CGI ads animated visual editing"
             description="Professional CGI ads visual editing with engaging transitions, sound effects, color grading, and optimized content for maximum viewer retention. Perfect for Services and Product Advertising use only AI."
             preview={videoEdit1}
             youtubeUrl="https://youtube.com/shorts/YWKv2Le4uso?si=c1-p2bdMIv2RWHvJ"
           />
         </div>
-
         <div className={styles.double}>
           {/* Instagram Reels Project */}
           <ProjectCard
